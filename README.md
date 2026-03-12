@@ -1,2 +1,2 @@
 # Pharmaceutical-Product-Data-Standardization
-data/raw_product_list.csv
+A project demonstrating pharmaceutical product data cleaning, catalog standardization, and AI-assisted categorization.
