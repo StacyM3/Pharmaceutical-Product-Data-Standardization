@@ -1,0 +1,29 @@
+Pharmacy Inventory Categorization Prompt
+Objective: Please categorize the following list of pharmaceutical items into the five specific categories provided below.
+
+Categories:
+
+CHRONIC MEDICINES: Medications for long-term conditions (Hypertension, Diabetes, Asthma, Cholesterol, Epilepsy, etc.).
+
+PRESCRIPTION ONLY MEDICINES: Antibiotics, hormones, controlled substances, and high-strength medicated topicals/injections.
+
+OTCs (Over-the-Counter): General medications for pain, minor infections, cough/cold, and common symptoms.
+
+VITAMINS, BEAUTY AND WELLNESS: Supplements, skincare, fitness products (creatine/whey), baby care (diapers/wipes), and personal hygiene.
+
+MEDICAL DEVICES AND SUPPLIES: Instruments, dressings, bandages, hospital equipment (drip stands/BP machines), and consumables (syringes/gloves).
+
+Formatting Requirements:
+
+Present the result in a Markdown Table with two columns: Item Name and Category.
+
+Maintain the exact order in which the items appear in the source text.
+
+If an item is listed as #N/A, include it in the table but leave the Category cell blank.
+
+Auto-Correct: If two items are "run-on" (e.g., ProductA500mgProductB), please separate them into two distinct rows.
+
+Cleaning: Remove stray symbols or obvious typos in the item names while maintaining the core strength/dosage information.
+
+Input List:
+[PASTE YOUR PRODUCT LIST HERE]
