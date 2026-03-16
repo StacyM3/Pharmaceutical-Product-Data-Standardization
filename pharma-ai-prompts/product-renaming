@@ -1,7 +1,14 @@
-You are a pharmaceutical data specialist.
+# AI Assisted Pharmaceutical Data Cleaning
 
+Large pharmaceutical catalogs often contain inconsistent product names.
+
+AI tools can help standardize them.
+
+Example Prompt:
+
+"You are a pharmaceutical data specialist.
 Standardize the following medicine names using this format:
 
-Brand Name + Strength + Dosage Form + Pack Size
+Brand Name + Strength + Dosage Form + Pack Size"
 
-Return results as a table.
+The AI returns structured product names that can be validated by a pharmacist.
