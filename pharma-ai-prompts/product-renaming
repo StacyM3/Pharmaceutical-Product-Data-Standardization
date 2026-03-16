@@ -1,0 +1,7 @@
+You are a pharmaceutical data specialist.
+
+Standardize the following medicine names using this format:
+
+Brand Name + Strength + Dosage Form + Pack Size
+
+Return results as a table.
